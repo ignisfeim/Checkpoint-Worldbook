@@ -1,0 +1,63 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    border-box:box-sizing;
+}
+
+.titulo{
+    width:100%;
+    background-color:#23232e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: outset;
+    color:white;
+}
+.img{
+   display:flex;
+  justify-content:center;
+}
+.botao{
+  text-decoration:none;
+  color:white;
+}
+button {
+  text-decoration:none;
+  color: white;
+  background: #23232e;
+  transition: transform 1s;
+  transform: translateX(0) scale(1.5);
+}
+
+  button:hover,
+  button:focus {
+  transform: translateX(10px) scale(1.8);
+}
+main{
+    width:100%;
+    margin: 0 auto;
+    background-image: url(../img/paralax.jpg);
+    background-repeat: repeat;
+    
+}
+
+.conteiner{
+    width:75%;
+    border: 3px solid #23230e;
+    background-color: #23232e;
+}
+.conteiner h1{
+    color: white;
+    text-align: center;
+}     
+p{
+  color:white;
+  padding-top:5px;
+  text-align: justify;
+  padding:7px;
+  font-size:auto;
+}
+h2{
+  color:white;
+  text-align: center;
+}
